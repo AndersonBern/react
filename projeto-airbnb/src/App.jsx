@@ -13,11 +13,13 @@ import '@mdi/font/css/materialdesignicons.css'
 
 //Importar COMPONENTES
 import Navbar from "./components/Navbar";
+import Categorias from "./components/Categorias";
 
 function App() {
   return(
     <div>
       <Navbar />
+      <Categorias />
     </div>
   )
 }
