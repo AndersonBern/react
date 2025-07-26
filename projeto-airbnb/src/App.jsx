@@ -14,12 +14,14 @@ import '@mdi/font/css/materialdesignicons.css'
 //Importar COMPONENTES
 import Navbar from "./components/Navbar";
 import Categorias from "./components/Categorias";
+import ModalFilter from "./components/ModalFilter";
 
 function App() {
   return(
     <div>
       <Navbar />
       <Categorias />
+      <ModalFilter />
     </div>
   )
 }

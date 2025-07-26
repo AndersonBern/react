@@ -90,3 +90,8 @@
     opacity: 0;
 }
 
+.btn-filtro, .btn-filtro:hover {
+    border: 1px solid gray;
+
+}
+
